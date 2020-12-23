@@ -7,9 +7,14 @@
 body {
   font-family: "Raleway", "sans-serif";
   font-size: 16px;
+  line-height: 2;
 }
 .container {
   width: 1170px;
+}
+p {
+  font-size: 14px;
+  color: #999999;
 }
 .navbar-fixed {
   height: 0px;
@@ -41,7 +46,6 @@ nav {
   font-family: "great vibes", "cursive";
   font-weight: bold;
 }
-
 
 /* Showcase */
 .parallax-container::before {
@@ -87,6 +91,20 @@ nav {
   margin-top: 2rem;
 }
 
+/* About */
+#about {
+  padding: 110px 0;
+}
+#about img {
+  width: 98%;
+}
+#about h3 {
+  font-size: 40px;
+  margin-top: 0px;
+}
+#about .about-content p{
+  margin-top: 30px;
+}
 /* Media queries */
 
 @media (max-width: 768px) {
