@@ -85,6 +85,9 @@
                 document.querySelector('.brand-logo').style.color = 'white'
             }
         }
+        //Mobile menu
+        var mobile = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(mobile, {});
 
         //Parallax init
         var parallax = document.querySelectorAll('.parallax');
